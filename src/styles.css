@@ -50,6 +50,7 @@ html, body {
     max-width: 500px;
     outline: none;
     padding: 10px;
+    height: 75%;
 }
 
 /* Datepicker */
@@ -58,4 +59,20 @@ html, body {
 }
 .react-datetime-picker__wrapper{
     border: 0 solid gray !important;
+}
+
+/* FABS */
+.fab {
+    border-radius: 100%;
+    bottom: 25px;
+    font-size: 30px;
+    padding: 25px;
+    position: fixed;
+    right: 25px;
+}
+.fab-danger {
+    bottom: 25px;
+    padding: 10px;
+    position: fixed;
+    left: 25px; 
 }
